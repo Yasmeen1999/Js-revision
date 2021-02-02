@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to js</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <button class="event-button" >Click me!</button>
+    <input placeholder="type into me!" class="input-to-copy" />
+    <p class="p-to-copy-to">Nothing has happened yet.</p>
+
+    <!-- JS Events and Listeners -->
+
+    <script>
+          const button = document.querySelector('.event-button');
+              button.addEventListener('click' , function () {
+              alert("hey this is you");
+           });
+
+           const input = document.querySelector('.input-to-copy');
+           const paragraph = document.querySelector('.p-to-copy-to');
+
+              input.addEventListener("keyup", function() {
+              paragraph.innerText  = input.value;
+           });
+   </script>
+
+</body>
+  
+</html>
