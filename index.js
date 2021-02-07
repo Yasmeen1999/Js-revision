@@ -75,4 +75,50 @@
  
  */
 
+                         /*destructuring of object */
+      //  const data ={
+      //    name:"yasmeen",
+      //    age:'21'
+      //  }
+      //  const myName = data.name;
+      //  const age = data.age;
+      //  console.log(myName,age)
 
+                        /* this will writen like this in ES6*/
+
+      // const data ={
+      //    name:"yasmeen",
+      //    age:'21'
+      //  }
+      //  const {name,age}=data;
+      //  console.log(name,age)
+
+
+                         /*Hoisting */
+
+      //  function hoisting
+      // calculatedAge(1999);
+
+      // function calculatedAge(year) {
+      //   console.log(2021 - year);
+      // }
+
+
+      // variable hoisting
+      // console.log("hmmm", ages);
+      //  var ages = 23;
+
+                          /*switch statement */
+
+        //     let dice = 8;
+        //  switch (dice){
+        //    case 1:
+        //      console.log("you got a one dice");
+        //      break;
+        //      case 2:
+        //        console.log("you got two");
+        //        break;
+        //        default:
+        //          console.log("noting");
+        //  }
+ 
