@@ -121,4 +121,23 @@
         //        default:
         //          console.log("noting");
         //  }
- 
+        
+                           /*spread operator */
+
+        // const first =[1,2,3];           
+        // const second =[4,5,6];
+        // const combine = [...first, 'a', ...second]
+        // console.log(combine);
+
+                              /*  filtering of an arry */
+
+
+            // const first =[1,2,3,-1,-6]; 
+            // const filtering = first.filter(value => value >= 0
+            // );
+                       
+            
+                            /*  mapping the above array  */
+
+            // const items = filtering.map(value => "<li>" + value + "</li>")
+            // console.log(items);
